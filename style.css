@@ -1,3 +1,88 @@
 *{
     margin: 0;
 }
+
+body{
+    background-color: #212121;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.github{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.35rem;
+    transition-duration: 1.5s;
+}
+
+.github img{
+    border-radius: 15rem;
+    width: 10rem;
+    cursor: pointer;
+    transition-duration: 1.5s;
+    transition-delay: 0;
+    opacity: 0;
+}
+
+.github img:hover{
+    opacity: 0.5;
+}
+
+.foto img{
+    border-radius: 15rem;
+    width: 10rem;
+    cursor: pointer;
+    transition-duration: 1.5s;
+    transition-delay: 0;
+    border-color: black;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.descricao{
+    color: aliceblue;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.botao{
+    width: 20rem;
+    height: 2rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+    border-color: aliceblue;
+    transition-duration: 0.5s ;
+    transition-delay: 0;
+    background-color: rgb(195, 0, 255);
+    display: flex;
+    justify-content: center;
+    padding: 7.5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.botao:hover{
+    background-color: rgb(255, 0, 234);
+    color: black;
+    border-color: black;
+    font-weight: bold;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}

@@ -7,28 +7,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.github{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5.2rem;
-    transition-duration: 1.5s;
-}
-
-.github img{
-    border-radius: 15rem;
-    width: 10rem;
-    cursor: pointer;
-    transition-duration: 1.5s;
-    transition-delay: 0;
-    opacity: 0;
-}
-
-.github img:hover{
-    opacity: 0.5;
-}
-
 .foto img{
     border-radius: 15rem;
     width: 10rem;

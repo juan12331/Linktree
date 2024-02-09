@@ -1,13 +1,40 @@
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     background-color: #212121;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.foto img{
+nav{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.upButton{
+    border-radius: 50rem;
+    background-color: whitesmoke;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    transition-duration: 0.5s;
+}
+
+.upButton:hover{
+    background-color: rgb(184, 184, 184);
+    transform: translate(0, -5px);
+}
+
+
+
+.foto img {
     border-radius: 15rem;
     width: 10rem;
     cursor: pointer;
@@ -16,34 +43,26 @@ body{
     border-color: black;
 }
 
-.foto{
+.foto {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
 }
 
-.name{
+.name {
     display: flex;
     justify-content: center;
     color: aliceblue;
+    font-weight: bold;
 }
 
-.descricao{
-    color: aliceblue;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    margin-left: 3rem;
-    margin-right: 2rem;
-}
-
-.botao{
-    width: 20rem;
-    height: 2rem;
-    margin: 0.3rem;
-    border-radius: 5px;
+.botao {
+    width: 40rem;
+    height: 3rem;
+    margin: 0.5rem;
+    border-radius: 10px;
     border-color: aliceblue;
-    transition-duration: 0.5s ;
+    transition-duration: 0.5s;
     transition-delay: 0;
     background-color: rgb(195, 0, 255);
     display: flex;
@@ -51,16 +70,18 @@ body{
     padding: 7.5px;
     cursor: pointer;
     color: aliceblue;
+    font-weight: bold;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: rgb(255, 0, 234);
     color: black;
     border-color: black;
     font-weight: bold;
+    transform: translate(0, -5px);
 }
 
-.button{
+.button {
     display: flex;
     justify-content: center;
 }

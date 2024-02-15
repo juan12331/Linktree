@@ -1,3 +1,18 @@
+@keyframes girar {
+
+    0%{
+        transform: translate(0);
+    }
+
+    50%{
+        transform: translate(0, -2.5px);
+    }
+
+    100%{
+        transform: translate(0, 0px);
+    }
+}
+
 *{
     margin: 0;
     user-select: none;
@@ -30,7 +45,11 @@ nav{
 
 .upButton:hover{
     background-color: rgb(184, 184, 184);
-    transform: translate(0, -5px);
+    animation-name: girar ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
 }
 
 
@@ -46,7 +65,10 @@ nav{
 }
 
 .foto img:hover{
-    transform: translate(0, -5px);
+    animation-name: girar ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
 }
 
 .foto{
@@ -93,7 +115,11 @@ nav{
     color: black;
     border-color: black;
     font-weight: bold;
-    transform:  translate(0px, -5px);
+    animation-name: girar ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
 }
 
 .button{
@@ -120,11 +146,18 @@ nav{
     width: 9rem;
     height: 2rem;
     box-shadow: 6px 3px 2px 1px rgba(0, 0, 255, .2);
+
+    
+
 }
 
 .botaoLink:hover{
-    transform:  translate(0px, -5px);
+    animation-name: girar ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
     background-color: gray;
     color: white;
 }
+
 
